@@ -3,3 +3,5 @@ To check logs: journalctl -u gitopiad -f -o cat
 To check sync status: curl -s localhost:41657/status | jq .result.sync_info
  source $HOME/.bash_profile
 Status Synch : gitopiad status 2>&1 | jq .SyncInfo
+
+Meganmusk Teacher Coding
